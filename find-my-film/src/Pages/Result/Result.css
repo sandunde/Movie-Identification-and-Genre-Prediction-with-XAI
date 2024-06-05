@@ -1,0 +1,59 @@
+.search-container {
+  margin-top : 5px;
+  position   : relative;
+  display    : flex;
+  align-items: center;
+}
+
+.search-input {
+  padding-right: 30px;
+  border       : 1px solid #ccc;
+  border-radius: 5px;
+  height       : 36px;
+  width        : 100%;
+  box-sizing   : border-box;
+  font-size    : 14px;
+}
+
+.search-icon {
+  position: absolute;
+  right   : 8px;
+  cursor  : pointer;
+}
+
+.login-btn {
+  gap: 20px;
+}
+
+.movie-title {
+  text-align: center;
+  margin    : 20px 0;
+}
+
+.spinner {
+  margin-top: 10px;
+}
+
+.pagination {
+  display   : flex;
+  list-style: none;
+  padding   : 0;
+}
+
+.pagination li {
+  margin-right: 5px;
+}
+
+.pagination button {
+  border-radius: 5px;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color           : white;
+}
+
+.pagination button:hover {
+  background-color: #007bff;
+  color           : white;
+}

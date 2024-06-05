@@ -1,0 +1,54 @@
+.slider-container {
+  background     : linear-gradient(to bottom, #007bff, #87cefa);
+  padding        : 20px;
+  text-align     : center;
+  height         : 100vh;
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+}
+
+.main-button {
+  align-self   : center;
+  width        : 200px;
+  height       : 200px;
+  border-radius: 100px;
+}
+
+.input-field{
+  margin: 0 auto;
+  width: 600px;
+}
+
+@keyframes wave-animation {
+  0% {
+    box-shadow: 0 0 0 0 rgba(166, 0, 192, 0.7), 0 0 0 0 rgba(166, 0, 192, 0.7);
+  }
+
+  100% {
+    box-shadow: 0 0 0 30px rgba(0, 123, 255, 0), 0 0 0 50px rgba(0, 123, 255, 0);
+  }
+}
+
+.wave {
+  animation: wave-animation 2.5s infinite;
+}
+
+.cancel-button{
+  display: block;
+  width: 100px;
+  margin: 60px auto;
+}
+
+.spinner {
+  display: block;
+  margin: 10px auto;
+}
+
+.switch-class {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+
