@@ -1,0 +1,13 @@
+pandas
+scikit-learn
+keras
+seaborn
+matplotlib
+nltk
+transformers
+torch
+Flask
+flask-cors
+captum
+torchaudio
+python-Levenshtein
